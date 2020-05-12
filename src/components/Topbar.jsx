@@ -1,8 +1,7 @@
 import React from 'react';
 import { ReactComponent as LogoSvg } from "../assets/img/logo.svg";
 
-class Topbar extends React.Component {
-	render() {
+const Topbar = () => {
 	  return (
 		<header className="topbar" data-testid="topbar">
 		  <div className="container">
@@ -11,7 +10,6 @@ class Topbar extends React.Component {
 			</a>
 		  </div>
 		</header>
-	  );
-	}
+	  );	
   }
 export default Topbar;

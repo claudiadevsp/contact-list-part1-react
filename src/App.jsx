@@ -20,6 +20,7 @@ const App = () => {
       setSearchFilter("");
     }
   };
+  
   const handleSortBy = (event) => {
     const toSort = event;
     if (toSort) {
